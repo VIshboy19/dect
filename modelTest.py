@@ -13,7 +13,7 @@ options = ObjectDetectorOptions(base_options=base_options, score_threshold=0.5)
 detector = ObjectDetector.create_from_options(options)
 
 # STEP 3: Load webcam input.
-cap = cv2.VideoCapture(/dev/video1)
+cap = cv2.VideoCapture("/dev/video1")
 
 while cap.isOpened():
     success, image = cap.read()
