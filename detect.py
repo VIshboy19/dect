@@ -128,7 +128,7 @@ def main():
       '--model',
       help='Path of the object detection model.',
       required=False,
-      default='efficientdet.tflite')
+      default='model.tflite')
   parser.add_argument(
       '--maxResults',
       help='Max number of detection results.',
